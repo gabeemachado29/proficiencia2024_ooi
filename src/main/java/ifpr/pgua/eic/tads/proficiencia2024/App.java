@@ -2,6 +2,7 @@ package ifpr.pgua.eic.tads.proficiencia2024;
 
 import ifpr.pgua.eic.tads.proficiencia2024.model.Dados;
 import ifpr.pgua.eic.tads.proficiencia2024.model.Repository;
+import ifpr.pgua.eic.tads.proficiencia2024.model.entities.Pessoa;
 import io.github.hugoperlin.navigatorfx.BaseAppNavigator;
 import io.github.hugoperlin.navigatorfx.ScreenRegistryFXML;
 
