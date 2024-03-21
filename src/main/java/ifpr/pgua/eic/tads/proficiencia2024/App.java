@@ -1,5 +1,7 @@
 package ifpr.pgua.eic.tads.proficiencia2024;
 
+import java.util.ArrayList;
+
 import ifpr.pgua.eic.tads.proficiencia2024.model.Dados;
 import ifpr.pgua.eic.tads.proficiencia2024.model.Repository;
 import ifpr.pgua.eic.tads.proficiencia2024.model.entities.Pessoa;
@@ -12,7 +14,8 @@ import io.github.hugoperlin.navigatorfx.ScreenRegistryFXML;
 public class App extends BaseAppNavigator {
 
     private Dados dados = new Dados();
-    private Repository repository = new Repository(dados);
+    private ArrayList<Pessoa> pessoas = new ArrayList<>();
+    private Repository repository = new Repository(dados, pessoas);
 
     @Override
     public void init() throws Exception {

@@ -11,12 +11,13 @@ public class Repository {
     private ArrayList<Pessoa> pessoas;
     private Dados dados;
 
-    public Repository(Dados dados){
+    public Repository(Dados dados, ArrayList<Pessoa> pessoas){
         this.dados = new Dados();
+        this.pessoas = new ArrayList<>();
     }
 
     public void carregar(){
-        //carregar os dados do arquivo
+        dados.carregar();
     }
 
     public void salvar(){
@@ -24,12 +25,13 @@ public class Repository {
     }
 
     public void cadastrar(String nome, String email, String telefone){
-
         Pessoa pessoa = new Pessoa(nome, email, telefone);
         pessoas.add(pessoa);
+        salvar();
     }
 
     public ArrayList<Pessoa> listar(){
+        carregar();
         return pessoas;
     }
 

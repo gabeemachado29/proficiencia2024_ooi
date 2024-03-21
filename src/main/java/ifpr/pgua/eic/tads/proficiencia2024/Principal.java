@@ -34,14 +34,13 @@ public class Principal {
         String email = txtEmail.getText();
         String telefone = txtTelefone.getText();
         
-        Pessoa pessoa = new Pessoa(nome, email, telefone);
         repository.cadastrar(nome, email, telefone);
-
         listar();
     }
 
     @FXML
     public void listar() {
-        repository.listar();
+        listaPessoas.getItems().addAll(repository.listar());
     }
+
 }

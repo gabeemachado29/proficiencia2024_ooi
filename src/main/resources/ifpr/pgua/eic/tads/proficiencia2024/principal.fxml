@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox alignment="CENTER" prefHeight="600" prefWidth="400" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ifpr.pgua.eic.tads.proficiencia2024.Principal">
+<VBox alignment="CENTER" prefHeight="600" prefWidth="400" spacing="20.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ifpr.pgua.eic.tads.proficiencia2024.Principal">
    <children>
       <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="139.0" text="Nome:">
          <font>
