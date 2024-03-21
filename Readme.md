@@ -1,0 +1,2 @@
+
+Crie um aplicativo, utilizando JavaFX, que permita criar uma lista de contatos. Deve ser possível cadastrar um novo contato, com nome, email e telefone. Deve ser possível visualizar a lista de contatos. A classe Dados, é responsável pela manipulação dos dados em arquivos. Não é necessário alterar essa classe. Deve ser utilizada a classe Repository para fazer o controle do conjunto de pessoas.
